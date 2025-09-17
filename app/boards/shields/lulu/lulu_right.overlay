@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "lily58.dtsi"
+#include "lulu.dtsi"
 
 &default_transform {
     col-offset = <6>;
@@ -12,11 +12,11 @@
 
 &kscan0 {
     col-gpios
-        = <&boardsource_blok 10 GPIO_ACTIVE_HIGH>
-        , <&boardsource_blok 16 GPIO_ACTIVE_HIGH>
-        , <&boardsource_blok 14 GPIO_ACTIVE_HIGH>
-        , <&boardsource_blok 15 GPIO_ACTIVE_HIGH>
-        , <&boardsource_blok 18 GPIO_ACTIVE_HIGH>
-        , <&boardsource_blok 19 GPIO_ACTIVE_HIGH>
+        = <&gpio0 7 GPIO_ACTIVE_HIGH>
+        , <&gpio0 6 GPIO_ACTIVE_HIGH>
+        , <&gpio0 5 GPIO_ACTIVE_HIGH>
+        , <&gpio0 4 GPIO_ACTIVE_HIGH>
+        , <&gpio0 3 GPIO_ACTIVE_HIGH>
+        , <&gpio0 2 GPIO_ACTIVE_HIGH>
         ;
 };

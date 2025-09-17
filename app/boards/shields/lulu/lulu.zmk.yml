@@ -2,8 +2,8 @@ file_format: "1"
 id: lulu
 name: Lulu
 type: shield
-url: https://peg.software/docs/blok
-requires: [boardsource_blok]
+url: https://boardsource.xyz/store/61d0b772319a1f3cc53ba2fb
+requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
