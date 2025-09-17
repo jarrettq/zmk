@@ -1,0 +1,22 @@
+/*
+ * Copyright (c) 2020 Pete Johanson
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "lily58.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&boardsource_blok 19 GPIO_ACTIVE_HIGH>
+        , <&boardsource_blok 18 GPIO_ACTIVE_HIGH>
+        , <&boardsource_blok 15 GPIO_ACTIVE_HIGH>
+        , <&boardsource_blok 14 GPIO_ACTIVE_HIGH>
+        , <&boardsource_blok 16 GPIO_ACTIVE_HIGH>
+        , <&boardsource_blok 10 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+&left_encoder {
+    status = "okay";
+};

@@ -1,0 +1,14 @@
+file_format: "1"
+id: lulu
+name: Lulu
+type: shield
+url: https://peg.software/docs/blok
+requires: [boardsource_blok]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - lulu_left
+  - lulu_right
